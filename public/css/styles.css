@@ -119,9 +119,9 @@ button:focus {
   right: 100px;
 }
 
-/* .icon-error.hidden{
+.icon-error.hidden{
 	display: none;
-} */
+}
 
 .text-error {
   position: absolute;
