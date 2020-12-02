@@ -119,16 +119,9 @@ button:focus {
   right: 100px;
 }
 
-.icon-error.hidden{
-	display: none;
-}
-
 .text-error {
-  position: absolute;
-  top: 60px;
+  padding: 10px 25px;
   color: #ee8c8c;
-  padding-left: 25px;
-  /* display: none; */
 }
 
 .img-group {

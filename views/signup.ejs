@@ -1,0 +1,33 @@
+<%- include('header') -%>
+
+        <div class="text">
+          
+          <h2>We're
+            <span>coming <br /> soon</span>
+          </h2>
+
+          <p class="paragraph">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          
+        </div>
+        
+        <form action="/" method="POST" class="email-form email-box" id="form">
+          <input type="text" name="firstName" class="input first-name" id="first-name" placeholder="First Name" />
+          <input type="text" name="lastName" class="input last-name" id="last-name" placeholder="Last Name" />
+          <input type="email" name="email" class="input email" id="email-input" placeholder="Email Address" />
+          <button type="submit" class="btn-submit" id="submit">
+            <img class="submit_button" src="images/icon-arrow.svg" alt="Submit" />
+          </button>
+          <%if( msg !== '' ){%>
+            <div class="error-group">
+            <img class="icon-error" id="js--error-icon" src="images/icon-error.svg" alt="Error icon" />
+            </div>
+          <%}%>
+        </form>
+
+        <p class="text-error" id="error"><%= msg %></p>
+
+  <%- include('footer') -%>

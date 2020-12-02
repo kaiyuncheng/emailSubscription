@@ -1,0 +1,25 @@
+<%- include('header') -%>
+
+        <div class="text">
+            <h2>
+              <span>OOPS!</span>
+            </h2>
+
+            <p class="paragraph">
+              There was an error with signing up, please try again or contact
+              the developer.
+            </p>
+          </div>
+          <form
+            action="/failure"
+            method="POST"
+            class="email-form email-box"
+            id="form"
+          >
+            <button type="submit" class="btn-submit btn-try" id="submit">
+              Try Again
+            </button>
+          </form>
+      
+
+  <%- include('footer') -%>
